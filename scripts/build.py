@@ -51,6 +51,8 @@ def main():
     (ROOT/'index.html').write_text(document,encoding='utf-8')
     readme=f'''# {DATA['title']}
 
+[公開ページ](https://kitaken1.github.io/ai-tsumeshogi-grand-challenge/)
+
 詰将棋創作の{len(TASKS)}課題。通し番号は付けず、分野・到達状況・作例の年代で絞り込めます。
 
 - 双方の達成例未確認：{counts['frontier']}課題
