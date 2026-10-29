@@ -1,0 +1,148 @@
+{
+  "reviewed_on": "2026-10-29",
+  "selection": "523の監査候補から、既存20特別目標との重複、近い条件の派生、欠陥作を整理し480登録を追加・保持。特別目標20件と合わせ500件。",
+  "excluded_records": [
+    {
+      "record_id": "1-118",
+      "reason": "登録表は調査中で数値・完全作の具体例が未提示。既知の単一駒種作を包含する可能性もあり、独立の数値課題として現段階では採用しない。",
+      "raw": {
+        "record_id": "1-118",
+        "condition": "盤面玉と歩全駒、 持駒あり、詰上り３枚 （盤面歩一色煙）",
+        "metric": "調査中",
+        "author_work": "",
+        "publication": "",
+        "links": [],
+        "index": "https://www.ne.jp/asahi/tetsu/toybox/challenge/index1.htm"
+      }
+    },
+    {
+      "record_id": "1-249",
+      "reason": "登録表は調査中で数値・完全作の具体例が未提示。既知の単一駒種作を包含する可能性もあり、独立の数値課題として現段階では採用しない。",
+      "raw": {
+        "record_id": "1-249",
+        "condition": "全手順桂か香",
+        "metric": "調査中",
+        "author_work": "",
+        "publication": "",
+        "links": [],
+        "index": "https://www.ne.jp/asahi/tetsu/toybox/challenge/index1.htm"
+      }
+    },
+    {
+      "record_id": "1-250",
+      "reason": "登録表は調査中で数値・完全作の具体例が未提示。既知の単一駒種作を包含する可能性もあり、独立の数値課題として現段階では採用しない。",
+      "raw": {
+        "record_id": "1-250",
+        "condition": "全手順金か銀",
+        "metric": "調査中",
+        "author_work": "",
+        "publication": "",
+        "links": [],
+        "index": "https://www.ne.jp/asahi/tetsu/toybox/challenge/index1.htm"
+      }
+    },
+    {
+      "record_id": "3-58",
+      "reason": "掲載作は余詰と明記されるため、人間の完全作達成例としては採用しない。",
+      "possible_frontier_goal": {
+        "record_id": "3-58",
+        "title": "持駒評価36点以上の完全作",
+        "definition": "初形の攻方持駒を、小駒１点・大駒５点で数えて36点以上とし、余詰・不詰・駒余りのない作品にする。",
+        "category": "省駒・配置",
+        "notes": [
+          "元作品は余詰のある参考報告。人間の完全作達成例には数えない。36点以上の完全作の存在はこの資料から確認できない。"
+        ],
+        "source_url": "https://www.ne.jp/asahi/tetsu/toybox/challenge/c3058.htm",
+        "author_work": "相馬康幸（余詰のある参考作）",
+        "publication": "おもちゃ箱 2025年7月",
+        "metric": "参考36点（余詰）",
+        "human_status": "not_confirmed",
+        "ai_status": "unconfirmed",
+        "threshold": 36,
+        "bound": "at_least",
+        "measurement": "初形持駒評価点"
+      }
+    },
+    {
+      "record_id": "4-90",
+      "condition": "連続不成王手回数",
+      "metric": "24回",
+      "reason": "個別作品ページ c4090a.htm に「81手目より別詰あり」と明記。",
+      "source_url": "https://www.ne.jp/asahi/tetsu/toybox/challenge/c4090a.htm"
+    },
+    {
+      "record_id": "4-141",
+      "condition": "連続飛不成王手回数",
+      "metric": "24回",
+      "reason": "個別作品ページ c4141a.htm に「81手目より別詰あり」と明記。4-90と同じ欠陥作。",
+      "source_url": "https://www.ne.jp/asahi/tetsu/toybox/challenge/c4141a.htm"
+    },
+    {
+      "record_id": "4-144",
+      "condition": "連続桂か香",
+      "metric": "調査中",
+      "reason": "登録表が「調査中」で、目標値・作者・作品がない。任意の数値は作らない。",
+      "source_url": "https://www.ne.jp/asahi/tetsu/toybox/challenge/index4.htm"
+    },
+    {
+      "record_id": "4-145",
+      "condition": "連続金か銀",
+      "metric": "調査中",
+      "reason": "登録表が「調査中」で、目標値・作者・作品がない。任意の数値は作らない。",
+      "source_url": "https://www.ne.jp/asahi/tetsu/toybox/challenge/index4.htm"
+    },
+    {
+      "record_id": "4-111",
+      "condition": "連続王手",
+      "metric": "17回 参考19回",
+      "reason": "登録値17回と、参照先の現行記録（連続逆王手21回）に不整合。相互参照先だけから17回の作品・数え方を確定せず、採用保留。",
+      "source_url": "https://www.ne.jp/asahi/tetsu/toybox/challenge/index4.htm"
+    }
+  ],
+  "not_selected_record_ids": [
+    "1-1",
+    "1-143",
+    "1-144",
+    "1-146",
+    "1-155",
+    "1-156",
+    "1-157",
+    "1-158",
+    "1-16-specified-hand",
+    "1-203",
+    "1-210-specified-hand",
+    "1-211",
+    "1-22",
+    "1-222-specified-hand",
+    "1-224",
+    "1-225",
+    "1-226",
+    "1-227",
+    "1-235",
+    "1-236",
+    "1-241",
+    "1-256",
+    "1-257-specified-hand",
+    "1-30",
+    "1-4",
+    "1-40",
+    "1-5",
+    "1-53",
+    "1-6",
+    "1-7",
+    "1-72",
+    "1-73",
+    "1-74",
+    "1-9-specified-hand",
+    "3-22",
+    "3-30",
+    "3-32",
+    "4-103",
+    "4-11",
+    "4-96",
+    "4-97",
+    "4-98",
+    "4-99"
+  ],
+  "verification_scope": "公開された作品紹介・修正注記の確認。500作品をソフトで独立再検証した結果ではない。"
+}
